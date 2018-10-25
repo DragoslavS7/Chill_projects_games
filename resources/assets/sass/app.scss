@@ -1,0 +1,42 @@
+@import "node_modules/font-awesome-sass/assets/stylesheets/_font-awesome";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/datatables.net-bs/css/dataTables.bootstrap.min";
+@import "./data-tables";
+@import "./bootstrap-overrides";
+@import "./font-awsome-extensions";
+@import "./general";
+@import "./backgrounds";
+@import "./margins";
+@import "./font-sizes";
+@import "./font-color";
+@import "./font-family";
+@import "./paddings";
+@import "./heights";
+@import "./z-indexes";
+@import "./widths";
+@import "./borders";
+
+
+.client-logo-placeholder {
+  padding-left: 31px;
+  padding-right: 31px;
+  padding-bottom: 55px;
+  padding-top: 31px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.text-limit {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.autocomplate{
+  position: absolute;
+  height: auto;
+  display: none;
+  z-index: 10;
+  max-height: 150px;
+  overflow-y: auto;
+}

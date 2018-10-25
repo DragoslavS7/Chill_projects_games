@@ -1,0 +1,11 @@
+.paginate_button {
+  @extend .m-5;
+}
+
+.paging_full_numbers{
+  @extend .pt-10;
+}
+
+.dataTables_length select, input[type='search']{
+  @extend .form-control;
+}

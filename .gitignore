@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+/public/storage
+/public/gamesSources/
+/databaseBackups/*
+Homestead.yaml
+Homestead.json
+.env
+/.idea
+
